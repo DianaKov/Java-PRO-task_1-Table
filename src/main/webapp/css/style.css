@@ -1,0 +1,29 @@
+table{
+    background-color: #AFEEEE;
+    border: 1px solid black;
+    border-spacing: 0;
+    text-align: center;
+    margin-top: 4%;
+}
+thead{
+    background-color: #48D1CC;
+}
+th{
+    padding: 7px;
+}
+td{
+    padding: 7px;
+}
+
+tbody>tr:nth-of-type(2)>td:nth-of-type(15), tbody>tr:nth-of-type(3)>td:nth-of-type(15), tbody>tr:nth-of-type(2)>td:nth-of-type(15),
+tbody>tr:nth-of-type(6)>td:nth-of-type(15), tbody>tr:nth-of-type(7)>td:nth-of-type(15), tbody>tr:nth-of-type(10)>td:nth-of-type(15),
+tbody>tr:nth-of-type(14)>td:nth-of-type(15){
+    background-color: red;
+}
+.number{
+    background-color: #48D1CC;
+}
+tbody>tr:hover{
+     color: azure;
+     background-color: darkcyan;
+ }
