@@ -32,7 +32,7 @@ public class Main {
     private static <T> int countAnnotatedMethods(T firstClass, Class<? extends Annotation> firstAnnotationClass) {
         int count = 0;
         Class<?> cls = firstClass.getClass();
-        while (cls != null) {
+        while (!cls.equals(Object.class)) {
             for (Method method : cls.getDeclaredMethods()) {
                 if (method.isAnnotationPresent(firstAnnotationClass)) {
                     count++;
