@@ -20,9 +20,8 @@ public class Main {
         Main obj = new Main("Java", 2023, 3.14);
         SerializationUtils.serialize(obj, "myclass.ser");
         Main obj2 = (Main) SerializationUtils.deserialize(Main.class, "myclass.ser");
-        System.out.println(obj2.myString); // Output: Hello
-        System.out.println(obj2.myInt); // Output: 123
+        System.out.println(obj2.myString); // Output: Java
+        System.out.println(obj2.myInt); // Output: 2023
         System.out.println(obj2.myDouble); // Output: 0.0 (not annotated with @Save)
     }
 }
-
