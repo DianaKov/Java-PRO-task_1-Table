@@ -6,8 +6,8 @@
      
      public void test(int a, int b) {…}
      
-   #### class  Annotation
-   #### @interface  Test
+   #### Смотреть class  Annotation
+   #### Смотреть @interface  Test
 
 - [X] 2. Написать класс TextContainer, который содержит в себе строку. С помощью механизма 
 аннотаций указать 1) в какой файл должен сохраниться текст 2) метод, который выполнит 
@@ -26,12 +26,12 @@
     
     }
 
-  #### class TextContainer
-  #### class Saver
+  #### Смотреть class TextContainer
+  #### Смотреть class Saver
   
   - [X] Написать код, который сериализирует и десериализирует в/из файла все значения полей 
 класса, которые отмечены аннотацией @Save.
 
-  #### class SerializationUtils
-  #### @interface Save
-  #### public class Main {
+  #### Смотреть class SerializationUtils
+  #### Смотреть @interface Save
+  #### Смотреть class Main {
